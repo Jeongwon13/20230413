@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    justify-content: center;
+    outline: none;
+}
+
+
+body{
+    width: 80vw;
+    margin : 0 auto;
+ }  /* body 태그가 가지고 있는 기본 margin 제거 */ 
+
+
+main{
+    width: 1140px;
+    margin: auto;
+}
+
+
+header {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#search {
+  
+    width: 300px;
+}
+
+nav {
+    margin-top: 80px;
+    height: 50px;
+}
+
+nav a:hover{
+    color: white;
+    font-weight: bold;
+    background-color: red;
+}
+
+
+
+nav a:focus {
+    background-color: blue;
+    border: 15px solid blue;
+}
+
+#member-profile{
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+}
+
+nav > ul {
+    border-bottom: 3px solid red;
+    display: flex;
+    justify-content: space-evenly;
+    height: 100%;
+    align-items: center;
+    
+}
+
+nav li {
+    list-style-type: none;
+    width: 200px;
+    
+}
+
+nav a {
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+    border: 15px solid red;
+}
+
+
+
+.main1 {
+    
+    width: 700px;
+    height: 30px;
+}
+ 
+ 
+#th2 {
+    width: 50%;
+}
+
+#secMain {
+    padding-top: 5px;
+}
+
+#searchBtn1 {
+    display: flex;
+    margin-top: 50px;
+    margin-right: 250px;
+    justify-content: center;
+}
+
+#searchBtn2 {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#search {
+    height: 30px;
+    border: 1px solid black;
+    
+}
+
+/*************************************/
+
+
+
+.content-2 {
+    display: flex;
+    justify-content: space-evenly;
+}

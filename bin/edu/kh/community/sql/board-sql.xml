@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+	<comment>board-sql.xml</comment>
+
+	 
+<entry key="insertBoard">
+	INSERT INTO BOARD (BOARDNO, TITLE, CONTENT, WRITER, REGDATE, CNT) 
+	VALUES (SEQ_BOARD.NEXTVAL, ?, ?, ?, SYSDATE, 0)
+</entry>
+	 
+
+
+
+
+
+</properties>
